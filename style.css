@@ -111,9 +111,7 @@ section {
 aside p, article p {
 	text-align: justify;
 } 
-/*.position {
-	padding-left: 0;
-}*/
+
 .col-1 {
 	padding-right: 0;
 }

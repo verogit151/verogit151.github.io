@@ -29,11 +29,7 @@ body{
 	border: 1px #ecf0f1 solid;
 	margin: auto;
 }
-/*header aside {
-	height: 330px;
-	color: #404040;
-	background-color: #96b47d;
-}*/
+
 header h1, section h3, aside h3 {
 	text-transform: uppercase;
 	font-size: 24px;
@@ -108,13 +104,25 @@ header #photo {
 section {
 	padding: 0 5% 0 5% !important;
 }
+section .nomreco {
+	text-transform: uppercase;
+	font-family: 'open_sanssemibold';
+	font-size: 14px;
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+section .coordonneesreco {
+	font-family: 'open_sanssemibold';
+	font-size: 12px;
+	margin-bottom: 0;
+}
+section .emailreco {
+	font-size: 12px;
+}
 aside p, article p {
 	text-align: justify;
 } 
 
-.col-1 {
-	padding-right: 0;
-}
 .date {
 	padding: 0;
 }
@@ -138,10 +146,12 @@ aside {
 	padding-top: 15%;
 	padding-left: 5%;
 }
-#loisirs {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+@media all and (min-width: 768px) {
+	#loisirs {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
 }
 ul {
 	list-style-type: none;	
